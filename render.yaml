@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mathvision-website
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python mathvision_notas_room1_3.py
