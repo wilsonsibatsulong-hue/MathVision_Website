@@ -1,0 +1,4 @@
+gradio>=6.5,<7
+pandas
+pillow
+matplotlib
